@@ -1,0 +1,9 @@
+{
+  "trim": true,
+  "normalize_headers": true,
+  "uppercase": ["cliente"],
+  "conversions": {
+    "data": {"type": "date", "format": "%d/%m/%Y"},
+    "valor": {"type": "number", "decimal": ",", "thousands": "."}
+  }
+}

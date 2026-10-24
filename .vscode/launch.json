@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "DataForge: interface desktop",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "dataforge.interfaces.desktop",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "DataForge: pipeline exemplo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "dataforge",
+      "args": ["data/raw/exemplo.csv", "--output", "data/processed/debug_001", "--config", "configs/conversoes.exemplo.json"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

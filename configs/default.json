@@ -1,0 +1,9 @@
+{
+  "trim": true,
+  "normalize_headers": true,
+  "drop_duplicates": false,
+  "drop_empty_rows": false,
+  "drop_empty_columns": false,
+  "uppercase": [],
+  "conversions": {}
+}

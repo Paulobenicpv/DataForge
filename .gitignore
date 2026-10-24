@@ -1,0 +1,32 @@
+# Ambientes locais
+.venv/
+venv/
+env/
+# Compilacao, instalacao e ferramentas
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+# Configuracoes locais e segredos
+.env
+.env.*
+!.env.example
+# Dados de entrada e resultados (somente exemplo ficticio versionado)
+data/raw/*
+!data/raw/exemplo.csv
+data/processed/*
+!data/processed/.gitkeep
+reports/*
+!reports/.gitkeep
+dados_tratados.csv
+*.log
+# Arquivos temporarios do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
